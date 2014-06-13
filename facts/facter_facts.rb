@@ -25,6 +25,10 @@ module MCollective
 
         facts
       end
+
+      def force_reload?
+        true
+      end
     end
   end
 end
